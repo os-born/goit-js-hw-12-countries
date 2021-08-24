@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+};
+
+.country .conteiner{
+    margin: 15px;
+}
+
+.country__name{
+    margin-bottom: 30px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.country__flag{
+    margin-left: 40px;
+    width: 600px;
+    height: 300px;
+}
+
+.country__flag--img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.country__titles {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.country__languagesList {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.country__languageItem{
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.valueOfEveryTitles{
+    font-weight: normal;
+    margin-left: 15px;
+}
+

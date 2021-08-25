@@ -19,6 +19,8 @@ export const markupMethods = (countryArr) =>{
 
     if(countryArr.length === 1){
         makeMarkupOne(countryArr);
+        refs.countrySearchInput.value = '';
+        return;
     } 
 
     if (countryArr.length > 1 && countryArr.length < 11){
@@ -26,7 +28,7 @@ export const markupMethods = (countryArr) =>{
     } 
     
     else 
-        findTooMuch();
+        findTooMuch()
 }
 
 

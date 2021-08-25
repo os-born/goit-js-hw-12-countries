@@ -20,4 +20,4 @@ const onHandleInput = e => {
         .catch(onFetchError)
 }
 
-refs.countrySearchInput.addEventListener('input', debounce(onHandleInput, 1000))
+refs.countrySearchInput.addEventListener('input', debounce(onHandleInput, 500))

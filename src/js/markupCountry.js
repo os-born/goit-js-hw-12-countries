@@ -3,13 +3,13 @@ import {refs} from "./refs";
 import fetchCountries from "./fetchCountries";
 import { markupMethods } from "./markupMethods";
 
-const onFetchError = (error) => {
-    alert("Can't find the country!");
+const onFetchError = () => {
+    alert("No matches! Enter better request!");
 }
 
 const onHandleInput = e => {
     e.preventDefault();
-    const searchQuery = e.target.value;
+    const searchQuery = e.target.value.trim();
 
     if (!searchQuery) {
         return
